@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Angular VC Theme</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="{{ 'bundle/styles.css' | static_asset_url }}">
+</head>
+<body>
+      <app-root></app-root>
+
+      <script src="{{ 'bundle/runtime-es2015.js' | static_asset_url }}"></script>
+      <script src="{{ 'bundle/polyfills-es5.js' | static_asset_url }}" nomodule></script>
+      <script src="{{ 'bundle/polyfills-es2015.js' | static_asset_url }}"></script>
+      <script src="{{ 'bundle/vendor-es2015.js' | static_asset_url }}"></script>
+      <script src="{{ 'bundle/main-es2015.js' | static_asset_url }}"></script>
+</body>
+</html>
