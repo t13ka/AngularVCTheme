@@ -1,4 +1,6 @@
-# AngularVC
+# AngularVC Theme
+
+Source code for an article https://www.virtocommerce.org/t/how-to-turn-angular-app-into-vc-theme/234
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
